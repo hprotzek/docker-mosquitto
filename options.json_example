@@ -1,0 +1,14 @@
+{
+  "plain": true,
+  "ssl": true,
+  "anonymous": false,
+  "logins": [
+    {"username": "testuser", "password": "mypw"}
+  ],
+  "customize": {
+    "active": false,
+    "folder": "mosquitto"
+  },
+  "certfile": "fullchain.pem",
+  "keyfile": "privkey.pem"
+}
