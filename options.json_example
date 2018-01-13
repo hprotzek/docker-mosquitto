@@ -3,7 +3,7 @@
   "ssl": true,
   "anonymous": false,
   "logins": [
-    {"username": "testuser", "password": "mypw"}
+    {"username": "testuser", "password": "mypwx"}
   ],
   "customize": {
     "active": false,
