@@ -22,6 +22,18 @@ cafile $CERTFILE
 certfile $CERTFILE
 keyfile $KEYFILE
 "
+DEFAULT_CONFIG="
+protocol mqtt
+user root
+log_dest stdout
+persistence true
+persistence_location /data/
+allow_anonymous false
+#password_file /data/users.db
+#include_dir /share/mosquitto
+"
+
+echo "$DEFAULT_CONFIG" > /etc/mosquitto.conf
 
 # Add plain configs
 if [ "$PLAIN" == "true" ]; then
